@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#28a745"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f8f9fa"
+textColor = "#2c3e50"
+
+[server]
+headless = true
+port = 8501
+
+[browser]
+gatherUsageStats = false
