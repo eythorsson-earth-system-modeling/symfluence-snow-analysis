@@ -1,8 +1,4 @@
 earthengine-api>=0.1.347
 streamlit>=1.28.0
-geemap>=0.24.0
-folium>=0.14.0
-streamlit-folium>=0.13.0
 pandas>=1.5.0
 plotly>=5.15.0
-numpy>=1.24.0
