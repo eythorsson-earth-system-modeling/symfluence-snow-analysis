@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SYMFLUENCE Snow Analysis Tool</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 3rem;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 600px;
+            margin: 2rem;
+        }
+        
+        .header {
+            margin-bottom: 2rem;
+        }
+        
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
+            font-size: 2.5rem;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .description {
+            color: #34495e;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+        
+        .launch-btn {
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .launch-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(40, 167, 69, 0.3);
+        }
+        
+        .github-btn {
+            background: linear-gradient(45deg, #24292e, #586069);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+            transition: transform 0.3s ease;
+            margin: 0.5rem;
+        }
+        
+        .github-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(36, 41, 46, 0.3);
+        }
+        
+        .features {
+            text-align: left;
+            margin: 2rem 0;
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+        
+        .features h3 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+        }
+        
+        .features ul {
+            list-style: none;
+        }
+        
+        .features li {
+            padding: 0.3rem 0;
+            color: #34495e;
+        }
+        
+        .features li:before {
+            content: "✅ ";
+            margin-right: 0.5rem;
+        }
+        
+        .footer {
+            margin-top: 2rem;
+            padding-top: 1rem;
+            border-top: 1px solid #ecf0f1;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="icon">🌨️</div>
+            <h1>SYMFLUENCE Snow Analysis</h1>
+            <p class="subtitle">Advanced Snow Cover Analysis Tool</p>
+        </div>
+        
+        <div class="description">
+            Professional snow cover analysis using Google Earth Engine and MODIS satellite data. 
+            Built for researchers, hydrologists, and climate scientists.
+        </div>
+        
+        <div class="features">
+            <h3>🚀 Key Features</h3>
+            <ul>
+                <li>Watershed-scale snow cover analysis</li>
+                <li>Point-specific SWE time series</li>
+                <li>Interactive mapping with folium</li>
+                <li>Snow evolution animations</li>
+                <li>Advanced statistical analysis</li>
+                <li>Multiple export formats (CSV, JSON)</li>
+            </ul>
+        </div>
+        
+        <div>
+            <a href="https://symfluence-snow-analysis.streamlit.app" class="launch-btn" target="_blank">
+                🚀 Launch Application
+            </a>
+            <br>
+            <a href="https://github.com/eythorsson-earth-system-modeling/symfluence-snow-analysis" class="github-btn" target="_blank">
+                📂 View Source Code
+            </a>
+        </div>
+        
+        <div class="footer">
+            <p><strong>Built by Darri Eythorsson</strong><br>
+            University of Calgary<br>
+            <a href="mailto:darri@symfluence.org">darri@symfluence.org</a></p>
+        </div>
+    </div>
+</body>
+</html>
